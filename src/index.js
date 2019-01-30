@@ -50,7 +50,7 @@ const App = () => (
   <GridBody>
     <EmptyDiv />
     <NavBar />
-    <BlueTextContentDiv>
+    <BlueTextContentDiv id="home">
       <h1>Lecture Goggles</h1>
       <h2>CS 426 - Senior Projects in Computer Science</h2>
       <h2>Spring 2019</h2>
@@ -59,12 +59,12 @@ const App = () => (
       <h2>University of Nevada, Reno</h2>
       <h2>Department of Computer Science and Engineering</h2>
     </BlueTextContentDiv>
-    <ContentDiv>
+    <ContentDiv id="video">
       <h1>Video</h1>
       <h2>Coming soon...</h2>
       <br />
     </ContentDiv>
-    <ContentDiv>
+    <ContentDiv id="team">
       <h1>Team</h1>
       <TeamDiv>
         <PersonCard name="Zachary Johnson" />
@@ -81,14 +81,14 @@ const App = () => (
         <PersonCard name="Shamik Sengupta" />
       </AdvisorDiv>
     </ContentDiv>
-    <ContentDiv>
+    <ContentDiv id="description">
       <h1>Description</h1>
       <p>
         Lecture Goggles is a free, open-source, educational resource repository to help students gain a better
         understanding of school subjects.
       </p>
     </ContentDiv>
-    <ContentDiv>
+    <ContentDiv id="resources">
       <h1>Resources</h1>
       <p>Coming soon...</p>
     </ContentDiv>

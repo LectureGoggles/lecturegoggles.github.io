@@ -33,6 +33,11 @@ const TitleItem = styled(NavItemBase)`
   font-size: 24px;
 `;
 
+const NavBarA = styled.a`
+  text-decoration: none;
+  color: #ffffff;
+`;
+
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -60,13 +65,23 @@ class NavBar extends React.Component {
     return (
       <NavBarStyle>
         <NavList>
-          <TitleItem>Lecture Goggles</TitleItem>
+          <TitleItem>
+            <NavBarA href="#home">Lecture Goggles</NavBarA>
+          </TitleItem>
           {width > 600 && (
             <>
-              <NavItem>Video</NavItem>
-              <NavItem>Team</NavItem>
-              <NavItem>Description</NavItem>
-              <NavItem>Resources</NavItem>
+              <NavBarA href="#video">
+                <NavItem>Video</NavItem>
+              </NavBarA>
+              <NavBarA href="#team">
+                <NavItem>Team</NavItem>
+              </NavBarA>
+              <NavBarA href="#description">
+                <NavItem>Description</NavItem>
+              </NavBarA>
+              <NavBarA href="#resources">
+                <NavItem>Resources</NavItem>
+              </NavBarA>
             </>
           )}
         </NavList>
