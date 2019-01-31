@@ -9,6 +9,7 @@ import ZackImage from './images/zack.png';
 import DascaluImage from './images/dascalu.jpg';
 import DevrinImage from './images/devrin.jpg';
 import SenguptaImage from './images/sengupta.jpg'
+import LoganImage from './images/logan.jpg'
 import PersonCard from './components/personCard/personCard';
 
 const EmptyDiv = styled.div`
@@ -77,7 +78,7 @@ const App = () => (
       <h1>Team</h1>
       <TeamDiv>
         <PersonCard name="Zachary Johnson" imageSrc={ZackImage} />
-        <PersonCard name="Logan Long" />
+        <PersonCard name="Logan Long" imageSrc={LoganImage} />
         <PersonCard name="Nathan Yocum" />
       </TeamDiv>
       <h2>Instructors</h2>
