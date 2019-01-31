@@ -5,7 +5,9 @@ import styled from 'styled-components';
 import NavBar from './components/navBar/navBar';
 import GridBody from './components/gridBody';
 import LectureGogglesLogo from './components/logo/logo';
-import ZackImage from './images/ZackImage.png';
+import ZackImage from './images/zack.png';
+import DascaluImage from './images/dascalu.jpg';
+import DevrinImage from './images/devrin.jpg';
 import PersonCard from './components/personCard/personCard';
 
 const EmptyDiv = styled.div`
@@ -74,8 +76,8 @@ const App = () => (
       </TeamDiv>
       <h2>Instructors</h2>
       <InstructorDiv>
-        <PersonCard name="Sergieu Dascalu" />
-        <PersonCard name="Devrin Lee" />
+        <PersonCard name="Sergieu Dascalu" imageSrc={DascaluImage} />
+        <PersonCard name="Devrin Lee" imageSrc={DevrinImage} />
       </InstructorDiv>
       <h2>Advisor</h2>
       <AdvisorDiv>
