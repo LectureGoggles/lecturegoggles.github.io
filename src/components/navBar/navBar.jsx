@@ -68,7 +68,7 @@ class NavBar extends React.Component {
           <TitleItem>
             <NavBarA href="#home">Lecture Goggles</NavBarA>
           </TitleItem>
-          {width > 600 && (
+          {width > 768 && (
             <>
               <NavBarA href="#video">
                 <NavItem>Video</NavItem>
