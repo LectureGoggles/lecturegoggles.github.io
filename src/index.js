@@ -87,8 +87,43 @@ const App = () => (
     <ContentDiv id="description">
       <h1>Description</h1>
       <p>
-        Lecture Goggles is a free, open-source, educational resource repository to help students gain a better
-        understanding of school subjects.
+        Lecture Goggles is a web application that is built to store and share helpful resources. Resources can be HTTPS
+        links or files provided by students or teachers. This will be limit file sizes to an appropriate size which has
+        not been determined yet. To provide a safe environment for all users, each link will be checked for malicious
+        content or inappropriate HTTPS forwards. The first implementation will limit resource contribution to authorized
+        college students and college professor accounts. To authorize accounts, the application will use third-party
+        SheerID software to get access to 180+ million student verified email addresses from the US and around the
+        world.
+      </p>
+      <p>
+        The UI design behind Lecture Goggles is an expanding tree method. By using this method of design Lecture Goggles
+        can continue to grow with little administration interaction. As users add new subjects and resources to the
+        website, the website will grow to contain all academic subjects needed. Each resource link will afford a system
+        to upvote and downvote. As demonstrated in websites like reddit.com, this seems highly successful at increasing
+        visibility to useful additions.
+      </p>
+      <p>
+        Due to the size, scope, and dynamic capability of Lecture Goggles, there will need to be a web server to
+        communicate with each users’ requests. Django is a web framework that can be used as an intermediary between the
+        user requests and database. Although Django can also be the web server for Lecture Goggles, for easier
+        deployment and scalability Team 22 will be using Apache Web Servers to contain Django.
+      </p>
+      <p>
+        To contain and organize all the user account data, provided resources, and any other necessary data, a database
+        will be needed. MongoDB, which is classified as a NoSQL database program, was previously going to be used for
+        initial implementation. Because Django does not support NoSQL out of the box, our group will need to use a
+        PostgreSQL database instead. Django web framework will access the database directly when user requests are
+        received then communicate pertinent information back to the user.
+      </p>
+      <p>
+        The project will run with multiple servers communicating to provide separation between the project. Firstly,
+        there will be a web server to communicate with the https requests sent from individuals on the web. The web
+        server will also send requests to the API server to provide dynamic webpage interaction with the user. The API
+        server is the second server in the chain, communicating with both the web server and the database server.
+        Lastly, the database server will communicate directly to and only to the API server. Each of these servers will
+        be running with an Ubuntu operating system using Azure server hosting. Originally the servers were going to use
+        Windows 10 as the operating system, this was changed to reduce the cost of Azure hosting. Using Ubuntu on Azure
+        is approximately 7 cents an hour.
       </p>
     </ContentDiv>
     <ContentDiv id="resources">
