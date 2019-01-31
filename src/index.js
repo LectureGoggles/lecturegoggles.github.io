@@ -8,6 +8,7 @@ import LectureGogglesLogo from './components/logo/logo';
 import ZackImage from './images/zack.png';
 import DascaluImage from './images/dascalu.jpg';
 import DevrinImage from './images/devrin.jpg';
+import SenguptaImage from './images/sengupta.jpg'
 import PersonCard from './components/personCard/personCard';
 
 const EmptyDiv = styled.div`
@@ -86,7 +87,7 @@ const App = () => (
       </InstructorDiv>
       <h2>Advisor</h2>
       <AdvisorDiv>
-        <PersonCard name="Shamik Sengupta" />
+        <PersonCard name="Shamik Sengupta" imageSrc={SenguptaImage} />
       </AdvisorDiv>
     </ContentDiv>
     <ContentDiv id="description">
