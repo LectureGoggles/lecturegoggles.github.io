@@ -9,9 +9,13 @@ const CardDiv = styled.div`
   padding-top: 3px;
 `;
 
+const CardImage = styled.img`
+  border-radius: 100px;
+`;
+
 const PersonCard = ({ name, imageSrc }) => (
   <CardDiv>
-    <img src={imageSrc} alt="avatar" width="200px" height="200px" />
+    <CardImage src={imageSrc} alt="avatar" width="200px" height="200px" />
     <h3>{name}</h3>
   </CardDiv>
 );
