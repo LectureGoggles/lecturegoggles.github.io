@@ -52,6 +52,14 @@ const InstructorDiv = styled.div`
   }
 `;
 
+const PaperDiv = styled.div`
+  grid-column: 2;
+  display: grid;
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+`;
+
 const AdvisorDiv = styled.div`
   grid-column: 2;
   display: grid;
@@ -151,7 +159,7 @@ const App = () => (
         />
       </InstructorDiv>
       <h1>Technical Papers</h1>
-      <InstructorDiv>
+      <PaperDiv>
         <PaperCard
           title="Technical Report I"
           imageSrc={TechPaperImage}
@@ -172,7 +180,7 @@ const App = () => (
           imageSrc={TechPaperImage}
           link={TechPaper4}
         />
-      </InstructorDiv>
+      </PaperDiv>
     </ContentDiv>
     <ContentDiv>
       <a href="https://github.com/LectureGoggles">
