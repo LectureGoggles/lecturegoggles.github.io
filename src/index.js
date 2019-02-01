@@ -153,22 +153,22 @@ const App = () => (
       <h1>Technical Papers</h1>
       <InstructorDiv>
         <PaperCard
-          title="Technical Paper I"
+          title="Technical Report I"
           imageSrc={TechPaperImage}
           link={TechPaper1}
         />
         <PaperCard
-          title="Technical Paper II"
+          title="Technical Report II"
           imageSrc={TechPaperImage}
           link={TechPaper2}
         />
         <PaperCard
-          title="Technical Paper III"
+          title="Technical Report III"
           imageSrc={TechPaperImage}
           link={TechPaper3}
         />
         <PaperCard
-          title="Technical Paper IV"
+          title="Technical Report IV"
           imageSrc={TechPaperImage}
           link={TechPaper4}
         />
