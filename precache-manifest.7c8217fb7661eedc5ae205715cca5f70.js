@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/logan.00d5cbb5.jpg"
   },
   {
-    "revision": "6a9eddfa361e7133d0cf",
-    "url": "/static/js/main.6a9eddfa.chunk.js"
+    "revision": "ed99f941c1b381948cdb",
+    "url": "/static/js/main.ed99f941.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "4c40bbf9b65836eacc5d66b1bd4cd4bd",
-    "url": "/static/media/techpaperimage.4c40bbf9.png"
+    "revision": "3a3788d511f16ba915d73ec765f82435",
+    "url": "/static/media/techpaperimage.3a3788d5.png"
   },
   {
     "revision": "db5f3aaf65a37c85d595ec4267384978",
@@ -44,11 +44,11 @@ self.__precacheManifest = [
     "url": "/static/media/techpaper3.0e97f0f1.pdf"
   },
   {
-    "revision": "78a93643c7c5150c95b8",
-    "url": "/static/js/1.78a93643.chunk.js"
+    "revision": "05368a5570759ee47643",
+    "url": "/static/js/1.05368a55.chunk.js"
   },
   {
-    "revision": "01b38b3936763bd3fe5a3c7f7e6586f0",
+    "revision": "174b0073aa74ae9a3f5e60435bb596c8",
     "url": "/index.html"
   }
 ];
