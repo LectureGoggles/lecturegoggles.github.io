@@ -8,8 +8,9 @@ import LectureGogglesLogo from './components/logo/logo';
 import ZackImage from './images/zack.png';
 import DascaluImage from './images/dascalu.jpg';
 import DevrinImage from './images/devrin.jpg';
-import SenguptaImage from './images/sengupta.jpg'
-import LoganImage from './images/logan.jpg'
+import SenguptaImage from './images/sengupta.jpg';
+import LoganImage from './images/logan.jpg';
+import NathanImage from './images/nathan.png';
 import PersonCard from './components/personCard/personCard';
 
 const EmptyDiv = styled.div`
@@ -79,7 +80,7 @@ const App = () => (
       <TeamDiv>
         <PersonCard name="Zachary Johnson" imageSrc={ZackImage} />
         <PersonCard name="Logan Long" imageSrc={LoganImage} />
-        <PersonCard name="Nathan Yocum" />
+        <PersonCard name="Nathan Yocum" imageSrc={NathanImage} />
       </TeamDiv>
       <h2>Instructors</h2>
       <InstructorDiv>
