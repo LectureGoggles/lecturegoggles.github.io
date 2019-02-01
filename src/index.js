@@ -12,6 +12,7 @@ import SenguptaImage from './images/sengupta.jpg';
 import LoganImage from './images/logan.jpg';
 import NathanImage from './images/nathan.png';
 import PersonCard from './components/personCard/personCard';
+import ResourceCard from './components/resourceCard/resourceCard';
 
 const EmptyDiv = styled.div`
   grid-column: 1 / span 3;
@@ -120,7 +121,13 @@ const App = () => (
     </ContentDiv>
     <ContentDiv id="resources">
       <h1>Resources</h1>
-      <p>Coming soon...</p>
+      <InstructorDiv>
+        <ResourceCard
+          title="Title"
+          description="some description"
+          link="https://lecturegoggles.github.io/asdfasdfasdfasd"
+        />
+      </InstructorDiv>
     </ContentDiv>
     <ContentDiv>
       <a href="https://github.com/LectureGoggles">
