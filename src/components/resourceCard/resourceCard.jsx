@@ -44,7 +44,7 @@ const ResourceCard = ({ title, description, link }) => (
     <h1>{title}</h1>
     <p>{description}</p>
     <LinkContainer>
-      <LinkP>{link.length < 38 ? link : `${link.substring(0, 35)}...`}</LinkP>
+      <LinkP>{link.length < 33 ? link : `${link.substring(0, 30)}...`}</LinkP>
       <LinkButtonA href={link}>
         <LinkButton> &gt; </LinkButton>
       </LinkButtonA>

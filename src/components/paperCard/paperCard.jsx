@@ -11,15 +11,13 @@ const CardDiv = styled.div`
   min-width: 168px;
 `;
 
-const CardImage = styled.img`
-`;
+const CardImage = styled.img``;
 
 const PaperCard = ({ title, imageSrc, link }) => (
   <CardDiv>
-    <p style={{fontSize:"20px"}}>{title}</p>
+    <p style={{ fontSize: '20px' }}>{title}</p>
     <a href={link}>
-     <CardImage src={imageSrc} alt="avatar" width="160px" height="200px">
-     </CardImage>
+      <CardImage src={imageSrc} alt="avatar" width="160px" height="200px" />
     </a>
   </CardDiv>
 );
@@ -28,10 +26,6 @@ PaperCard.propTypes = {
   title: PropTypes.string.isRequired,
   imageSrc: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired
-};
-
-PaperCard.defaultProps = {
-    imageSrc: 'Avatar.svg'
 };
 
 export default PaperCard;

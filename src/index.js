@@ -20,7 +20,6 @@ import TechPaper2 from './documents/techpaper2.pdf';
 import TechPaper3 from './documents/techpaper3.pdf';
 import TechPaper4 from './documents/techpaper4.pdf';
 
-
 const EmptyDiv = styled.div`
   grid-column: 1 / span 3;
 `;
@@ -147,11 +146,7 @@ const App = () => (
           description="McShane, Michael Q. 'Open Educational Resources.' Education Next 17.1 (2017) ProQuest. Web. 2 Nov. 2018."
           link="https://www.researchgate.net/publication/285596483_Open_Educational_Resources_A_Catalyst_for_Innovation"
         />
-        <ResourceCard
-          title="Relevant Website"
-          description="Khan Academy"
-          link="https://www.khanacademy.org"
-        />
+        <ResourceCard title="Relevant Website" description="Khan Academy" link="https://www.khanacademy.org" />
         <ResourceCard
           title="News"
           description="Django 2.2 alpha 1 released"
@@ -160,26 +155,10 @@ const App = () => (
       </InstructorDiv>
       <h1>Technical Papers</h1>
       <PaperDiv>
-        <PaperCard
-          title="Technical Report I"
-          imageSrc={TechPaperImage}
-          link={TechPaper1}
-        />
-        <PaperCard
-          title="Technical Report II"
-          imageSrc={TechPaperImage}
-          link={TechPaper2}
-        />
-        <PaperCard
-          title="Technical Report III"
-          imageSrc={TechPaperImage}
-          link={TechPaper3}
-        />
-        <PaperCard
-          title="Technical Report IV"
-          imageSrc={TechPaperImage}
-          link={TechPaper4}
-        />
+        <PaperCard title="Technical Report I" imageSrc={TechPaperImage} link={TechPaper1} />
+        <PaperCard title="Technical Report II" imageSrc={TechPaperImage} link={TechPaper2} />
+        <PaperCard title="Technical Report III" imageSrc={TechPaperImage} link={TechPaper3} />
+        <PaperCard title="Technical Report IV" imageSrc={TechPaperImage} link={TechPaper4} />
       </PaperDiv>
     </ContentDiv>
     <ContentDiv>
