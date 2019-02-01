@@ -11,7 +11,6 @@ const CardDiv = styled.div`
 `;
 
 const CardImage = styled.img`
-  border-radius: 100px;
 `;
 
 const PaperCard = ({ title, imageSrc, link }) => (
