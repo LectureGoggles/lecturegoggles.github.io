@@ -8,6 +8,7 @@ const CardDiv = styled.div`
   margin: 3px;
   padding-top: 3px;
   vertical-align: baseline;
+  min-width: 168px;
 `;
 
 const CardImage = styled.img`
