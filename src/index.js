@@ -11,8 +11,15 @@ import DevrinImage from './images/devrin.jpg';
 import SenguptaImage from './images/sengupta.jpg';
 import LoganImage from './images/logan.jpg';
 import NathanImage from './images/nathan.png';
+import TechPaperImage from './images/techpaperimage.png';
 import PersonCard from './components/personCard/personCard';
 import ResourceCard from './components/resourceCard/resourceCard';
+import PaperCard from './components/paperCard/paperCard';
+import TechPaper1 from './documents/techpaper1.pdf';
+import TechPaper2 from './documents/techpaper2.pdf';
+import TechPaper3 from './documents/techpaper3.pdf';
+import TechPaper4 from './documents/techpaper4.pdf';
+
 
 const EmptyDiv = styled.div`
   grid-column: 1 / span 3;
@@ -141,6 +148,29 @@ const App = () => (
           title="News"
           description="Django 2.2 alpha 1 released"
           link="https://www.djangoproject.com/weblog/2019/jan/17/django-22-alpha-1/"
+        />
+      </InstructorDiv>
+      <h1>Technical Papers</h1>
+      <InstructorDiv>
+        <PaperCard
+          title="Technical Paper I"
+          imageSrc={TechPaperImage}
+          link={TechPaper1}
+        />
+        <PaperCard
+          title="Technical Paper II"
+          imageSrc={TechPaperImage}
+          link={TechPaper2}
+        />
+        <PaperCard
+          title="Technical Paper III"
+          imageSrc={TechPaperImage}
+          link={TechPaper3}
+        />
+        <PaperCard
+          title="Technical Paper IV"
+          imageSrc={TechPaperImage}
+          link={TechPaper4}
         />
       </InstructorDiv>
     </ContentDiv>
