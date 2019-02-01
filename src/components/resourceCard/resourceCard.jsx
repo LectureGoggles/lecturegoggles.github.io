@@ -12,7 +12,8 @@ const CardDiv = styled.div`
 const LinkContainer = styled.div`
   display: flex;
   align-items: baseline;
-  background-color: #263238;
+  background-color: #0074d9;
+  border: 3px solid #0d47a1;
   border-radius: 18px;
   color: #ffffff;
 `;
