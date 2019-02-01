@@ -130,9 +130,24 @@ const App = () => (
       <h1>Resources</h1>
       <InstructorDiv>
         <ResourceCard
-          title="Title"
-          description="some description"
-          link="https://lecturegoggles.github.io/asdfasdfasdfasd"
+          title="Domain Book"
+          description="Orr, Dominic, et al. Open Educational Resources: a Catalyst for Innovation. OECD, 2015."
+          link="https://www.researchgate.net/publication/285596483_Open_Educational_Resources_A_Catalyst_for_Innovation"
+        />
+        <ResourceCard
+          title="Relevant Article"
+          description="McShane, Michael Q. 'Open Educational Resources.' Education Next 17.1 (2017) ProQuest. Web. 2 Nov. 2018."
+          link="https://www.researchgate.net/publication/285596483_Open_Educational_Resources_A_Catalyst_for_Innovation"
+        />
+        <ResourceCard
+          title="Relevant Website"
+          description="Khan Academy"
+          link="https://www.khanacademy.org"
+        />
+        <ResourceCard
+          title="News"
+          description="Django 2.2 alpha 1 released"
+          link="https://www.djangoproject.com/weblog/2019/jan/17/django-22-alpha-1/"
         />
       </InstructorDiv>
       <h1>Technical Papers</h1>
