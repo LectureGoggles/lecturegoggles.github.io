@@ -1,8 +1,8 @@
 {
-  "main.js": "/static/js/main.ed99f941.chunk.js",
-  "main.js.map": "/static/js/main.ed99f941.chunk.js.map",
-  "static/js/1.05368a55.chunk.js": "/static/js/1.05368a55.chunk.js",
-  "static/js/1.05368a55.chunk.js.map": "/static/js/1.05368a55.chunk.js.map",
+  "main.js": "/static/js/main.3904a5d3.chunk.js",
+  "main.js.map": "/static/js/main.3904a5d3.chunk.js.map",
+  "static/js/1.78a93643.chunk.js": "/static/js/1.78a93643.chunk.js",
+  "static/js/1.78a93643.chunk.js.map": "/static/js/1.78a93643.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/techpaperimage.png": "/static/media/techpaperimage.3a3788d5.png",
@@ -15,6 +15,6 @@
   "static/media/techpaper4.pdf": "/static/media/techpaper4.7ffe4928.pdf",
   "static/media/zack.png": "/static/media/zack.db5f3aaf.png",
   "index.html": "/index.html",
-  "precache-manifest.3adb2668089e6b70d07972dc00a76aaf.js": "/precache-manifest.3adb2668089e6b70d07972dc00a76aaf.js",
+  "precache-manifest.fa4081afbb752f6ef886caeb99b1a69b.js": "/precache-manifest.fa4081afbb752f6ef886caeb99b1a69b.js",
   "service-worker.js": "/service-worker.js"
 }

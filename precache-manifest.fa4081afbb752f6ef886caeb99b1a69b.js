@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/logan.00d5cbb5.jpg"
   },
   {
-    "revision": "ed99f941c1b381948cdb",
-    "url": "/static/js/main.ed99f941.chunk.js"
+    "revision": "3904a5d3d3769b119017",
+    "url": "/static/js/main.3904a5d3.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -44,11 +44,11 @@ self.__precacheManifest = [
     "url": "/static/media/techpaper3.0e97f0f1.pdf"
   },
   {
-    "revision": "05368a5570759ee47643",
-    "url": "/static/js/1.05368a55.chunk.js"
+    "revision": "78a93643c7c5150c95b8",
+    "url": "/static/js/1.78a93643.chunk.js"
   },
   {
-    "revision": "6e66f4b6bf7de09ad65db20ba2b9a822",
+    "revision": "668a6b4ac866a8eab6d3cb9c0a74fad4",
     "url": "/index.html"
   }
 ];
