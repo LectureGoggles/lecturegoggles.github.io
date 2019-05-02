@@ -19,6 +19,10 @@ import TechPaper1 from './documents/techpaper1.pdf';
 import TechPaper2 from './documents/techpaper2.pdf';
 import TechPaper3 from './documents/techpaper3.pdf';
 import TechPaper4 from './documents/techpaper4.pdf';
+import TechPaper5 from './documents/techpaper5.pdf';
+import TechPaper6 from './documents/techpaper6.pdf';
+import TechPaper7 from './documents/techpaper7.pdf';
+import TechPaper8 from './documents/techpaper8.pdf';
 
 const EmptyDiv = styled.div`
   grid-column: 1 / span 3;
@@ -87,7 +91,15 @@ const App = () => (
     </BlueTextContentDiv>
     <ContentDiv id="video">
       <h1>Video</h1>
-      <h2>Coming soon...</h2>
+      <iframe
+        width="1280"
+        height="720"
+        src="https://www.youtube.com/embed/0hLGxzpv2SY"
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullscreen
+        title="Lecture Goggles Video"
+      />
       <br />
     </ContentDiv>
     <ContentDiv id="team">
@@ -159,6 +171,10 @@ const App = () => (
         <PaperCard title="Technical Report II" imageSrc={TechPaperImage} link={TechPaper2} />
         <PaperCard title="Technical Report III" imageSrc={TechPaperImage} link={TechPaper3} />
         <PaperCard title="Technical Report IV" imageSrc={TechPaperImage} link={TechPaper4} />
+        <PaperCard title="Technical Report V" imageSrc={TechPaperImage} link={TechPaper5} />
+        <PaperCard title="Technical Report VI" imageSrc={TechPaperImage} link={TechPaper6} />
+        <PaperCard title="Technical Report VII" imageSrc={TechPaperImage} link={TechPaper7} />
+        <PaperCard title="Technical Report VIII" imageSrc={TechPaperImage} link={TechPaper8} />
       </PaperDiv>
     </ContentDiv>
     <ContentDiv>
