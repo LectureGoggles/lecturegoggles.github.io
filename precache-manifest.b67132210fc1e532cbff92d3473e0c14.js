@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "00d5cbb5dcf27c562d65c4d0b2f37a04",
-    "url": "/static/media/logan.00d5cbb5.jpg"
+    "revision": "389d9b51c0c5be242380",
+    "url": "/static/js/main.389d9b51.chunk.js"
   },
   {
-    "revision": "3904a5d3d3769b119017",
-    "url": "/static/js/main.3904a5d3.chunk.js"
+    "revision": "df228ff309a6c9c963bb",
+    "url": "/static/js/1.df228ff3.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/sengupta.59f6cf67.jpg"
   },
   {
-    "revision": "7ffe4928d91e51321f80ac1566e477a5",
-    "url": "/static/media/techpaper4.7ffe4928.pdf"
+    "revision": "00d5cbb5dcf27c562d65c4d0b2f37a04",
+    "url": "/static/media/logan.00d5cbb5.jpg"
   },
   {
     "revision": "5bf72aa760911717f01ee0144712ff7a",
@@ -44,11 +44,27 @@ self.__precacheManifest = [
     "url": "/static/media/techpaper3.0e97f0f1.pdf"
   },
   {
-    "revision": "78a93643c7c5150c95b8",
-    "url": "/static/js/1.78a93643.chunk.js"
+    "revision": "7ffe4928d91e51321f80ac1566e477a5",
+    "url": "/static/media/techpaper4.7ffe4928.pdf"
   },
   {
-    "revision": "668a6b4ac866a8eab6d3cb9c0a74fad4",
+    "revision": "2703f677ec5d7f702ca1575f1476560c",
+    "url": "/static/media/techpaper5.2703f677.pdf"
+  },
+  {
+    "revision": "785bf1174003de17713672fa6b90528a",
+    "url": "/static/media/techpaper6.785bf117.pdf"
+  },
+  {
+    "revision": "7ceaa91b50c819a727d2ef3a204e403f",
+    "url": "/static/media/techpaper7.7ceaa91b.pdf"
+  },
+  {
+    "revision": "012e9952bfa86d34a7c2e0e7b53272a6",
+    "url": "/static/media/techpaper8.012e9952.pdf"
+  },
+  {
+    "revision": "a48972ea233fd4bea1481a2884ae2752",
     "url": "/index.html"
   }
 ];
